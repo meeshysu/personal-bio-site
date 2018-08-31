@@ -1,7 +1,3 @@
-
-
-
-
 let projects = [ { 
     title: "Cool Project", 
     screenshot: "http://gotoflashgames.com/files/file/033.jpg", 
