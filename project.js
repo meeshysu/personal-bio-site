@@ -32,7 +32,7 @@ const printToDom = (stringToPrint, divId) => {
     selectedDiv.innerHTML = stringToPrint;
   };
   
-const projectCard = () => {
+const createProjectCards = () => {
     let newProject = '';
     for (i = 0; i < projects.length; i++){
     newProject += `<div>`;
@@ -50,6 +50,6 @@ const projectCard = () => {
 }
 };
 
-projectCard();
+createProjectCards();
 
 
