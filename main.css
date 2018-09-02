@@ -5,11 +5,10 @@ body {
 
 
 .techTitle {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-   
-    align-content: center;
+    text-align: center;
+    font-family: 'Cabin Sketch', cursive;
+    padding: 15px;
+    margin: auto;
 }
 
 #projectsPage {
