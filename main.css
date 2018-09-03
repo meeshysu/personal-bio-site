@@ -2,13 +2,28 @@ body {
     background-color: aliceblue;
 }
 
+.myName {
+    text-align: center;
+    margin: auto;
+    padding: auto;
+}
 
+#navLinks {
+    max-width: 100%;
+}
+
+#bioPage {
+    font-size: 11px;
+    margin: 10px;   
+    padding: 10px;
+}
 
 .techTitle {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-   
+    padding: 30px;
+    margin: auto;
     align-content: center;
 }
 
@@ -16,15 +31,21 @@ body {
     display: flex;  
     flex-wrap: wrap;
     justify-content: space-between;
-    padding: 100px;
-    margin: auto;  
+    padding: 50px;
+    margin: 50px;  
     background-color: bisque;
     border: 1px slateblue dashed;
     text-align: center;
 }
 
-.content {
-    padding: 0;
+#cards p {
+    padding: auto;
     margin: auto;
     text-align: center;
+    font-size: 12px;
+}
+
+#cards img {
+    background-color: lavenderblush;
+    padding: 10px;
 }
