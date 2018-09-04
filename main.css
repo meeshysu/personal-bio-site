@@ -19,19 +19,17 @@ body {
 }
 
 .techTitle {
-<<<<<<< HEAD
     text-align: center;
     font-family: 'Cabin Sketch', cursive;
     padding: 15px;
     margin: auto;
-=======
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
     padding: 30px;
     margin: auto;
     align-content: center;
->>>>>>> 6a59b470b8340809013ab08885a3b734c18c8e64
+
 }
 
 #projectsPage {
