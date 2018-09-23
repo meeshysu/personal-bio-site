@@ -62,3 +62,21 @@ const createProjectCards = () => {
 createProjectCards();
 
 
+// Event Listener SPA Begins
+const navigationBio = document.getElementById('navToBio');
+const navigationTech = document.getElementById('navToTechnologies');
+const navigationProjects = document.getElementById('navToProjects');
+
+
+bioPageBuilder = () => {
+  const navBio = document.getElementById('navToBio').innerHTML;
+  for (i = 0; i < navBio.length; i++) {
+    const navBioElem = navBio[i];
+    const navBioClicked = e.target;
+    const navBioUserClicked = navBioClicked.parentNode.parentNode; //very hesitant that this is what needs to be used; keep noted//
+  if (e.target.contains('navToTechnologies' || ))
+  }
+}
+
+//assume a for loop?
+//if statement. if i click 'bioPage' then the other two pages should hide. 
