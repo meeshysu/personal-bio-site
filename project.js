@@ -63,20 +63,27 @@ createProjectCards();
 
 
 // Event Listener SPA Begins
-const navigationBio = document.getElementById('navToBio');
-const navigationTech = document.getElementById('navToTechnologies');
-const navigationProjects = document.getElementById('navToProjects');
 
-bioPageBuilder = () => {
-  const trueAndFalseNavs = {navigationTech: false, navigationProjects: false};
-  const navBio = document.getElementById('navToBio').innerHTML;
-  for (i = 0; i < navBio.length; i++) {
-    const navBioElem = navBio[i];
-      if (navigationBio === true) {
-        printToDom(navBioElem, 'navToBio');
-      }
-    }
+const navBioElem = document.getElementById('navBio');
+
+navBioElem.addEventListener("click", function () {
+  document.getElementById('projectsPage').remove();
+  document.getElementById('technologiesPage').remove();
+});
 
 
+const navTechElem = document.getElementById('navTech');
 
+navTechElem.addEventListener("click", function () {
+  document.getElementById('bioPage').remove();
+  document.getElementById('projectsPage').remove();
+});
+
+
+const navProjectElem = document.getElementById('navProject');
+
+navProjectElem.addEventListener("click", function () {
+  document.getElementById('bioPage').remove();
+  document.getElementById('technologiesPage').remove();
+});
 
