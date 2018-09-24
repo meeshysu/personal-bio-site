@@ -63,26 +63,27 @@ createProjectCards();
 
 
 // Event Listener SPA Begins
-const navigationBio = document.getElementById('navToBio');
-const navigationTech = document.getElementById('navToTechnologies');
-const navigationProjects = document.getElementById('navToProjects');
+
+const navBioElem = document.getElementById('navBio');
+
+navBioElem.addEventListener("click", function () {
+  document.getElementById('projectsPage').remove();
+  document.getElementById('technologiesPage').remove();
+});
 
 
-bioPageBuilder = () => {
-  const flaseNavs = {navigationTech: 'false', navigationProjects: 'false'};
-  const navBio = document.getElementById('navToBio').innerHTML;
-  for (i = 0; i < navBio.length; i++) {
-    const navBioElem = navBio[i];
-    element.addEventListener('click', (e) => {
-      const navBioClicked = e.target;
-      const navBioUserClicked = navBioClicked.parentNode.parentNode; //very hesitant that this is what needs to be used; keep noted//
-      if (e.target.contains('navBioUserClicked' === true)) {
-        printToDom(navBioUserClicked, 'navToBio')
-      } else {
-        
-      }
-    })
-  }
-}
-//assume a for loop?
-//if statement. if i click 'bioPage' then the other two pages should hide. 
+const navTechElem = document.getElementById('navTech');
+
+navTechElem.addEventListener("click", function () {
+  document.getElementById('bioPage').remove();
+  document.getElementById('projectsPage').remove();
+});
+
+
+const navProjectElem = document.getElementById('navProject');
+
+navProjectElem.addEventListener("click", function () {
+  document.getElementById('bioPage').remove();
+  document.getElementById('technologiesPage').remove();
+});
+
