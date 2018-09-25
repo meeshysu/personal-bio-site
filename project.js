@@ -58,32 +58,31 @@ const createProjectCards = () => {
     }
   }
 };
-
 createProjectCards();
 
 
 // Event Listener SPA Begins
 
-const navBioElem = document.getElementById('navBio');
+const navBioElem = document.getElementById('navToBio');
+const bio = () => {
+  document.getElementById('projectsPage').classList.add('hideStuff');
+  document.getElementById('technologiesPage').classList.add('hideStuff');
+  document.getElementById('bioPage').classList.remove('hideStuff');
+}
+navBioElem.addEventListener('click', bio);
 
-navBioElem.addEventListener("click", function () {
-  document.getElementById('projectsPage').remove();
-  document.getElementById('technologiesPage').remove();
-});
+const navProjectsElem = document.getElementById('navToTech');
+const bioTwo = () => {
+  document.getElementById('projectsPage').classList.add('hideStuff');
+  document.getElementById('technologiesPage').classList.remove('hideStuff');
+  document.getElementById('bioPage').classList.add('hideStuff');
+}
+navProjectsElem.addEventListener('click', bioTwo);
 
-
-const navTechElem = document.getElementById('navTech');
-
-navTechElem.addEventListener("click", function () {
-  document.getElementById('bioPage').remove();
-  document.getElementById('projectsPage').remove();
-});
-
-
-const navProjectElem = document.getElementById('navProject');
-
-navProjectElem.addEventListener("click", function () {
-  document.getElementById('bioPage').remove();
-  document.getElementById('technologiesPage').remove();
-});
-
+const navProjectsEl = document.getElementById('navToProjects');
+const bioThree = () => {
+  document.getElementById('projectsPage').classList.remove('hideStuff');
+  document.getElementById('technologiesPage').classList.add('hideStuff');
+  document.getElementById('bioPage').classList.add('hideStuff');
+}
+navProjectsEl.addEventListener('click', bioThree);
