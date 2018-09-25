@@ -54,3 +54,7 @@ body {
     background-color: lavenderblush;
     padding: 10px;
 }
+
+.hideStuff {
+    display: none!important;
+}
