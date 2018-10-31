@@ -1,31 +1,3 @@
-const printToDom = (stringToPrint, divId) => {
-  const selectedDiv = document.getElementById(divId);
-  selectedDiv.innerHTML = stringToPrint;
-};
-
-const createProjectCards = (projects) => {
-  let newProject = '';
-  projects.forEach((project) => {
-    newProject += `<div id='cards'>
-    <h2>${project.title}</h2>
-    <img src='${project.screenshot}'></img>
-    <div class="content"><p>${project.description}</p>
-    <p>${project.technologiesUsed}</p>
-    <p>${project.available}</p>
-    <p>${project.url}</p>
-     <p>${project.githubUrl}</p></div>
-    </div>`;
-    if (project.available === true) {
-      printToDom(newProject, 'projectsPage');
-    }
-  });
-};
-
-createProjectCards();
-
-
-// Event Listener SPA Begins
-
 const navBioElem = document.getElementById('navToBio');
 const bio = () => {
   document.getElementById('projectsPage').classList.add('hideStuff');
