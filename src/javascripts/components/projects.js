@@ -1,17 +1,8 @@
 import $ from 'jquery';
+
 import 'bootstrap';
 
-const loadProjects = () => {
-  return new Promise((resolve, reject) => {
-    $.get('../db/projects.json')
-      .done((data) => {
-        resolve(data.projects);
-      })
-      .fail((error) => {
-        reject(error);
-      });
-  });
-};
+import loadProjects from '../data/dataProject';
 
 const createProjectCards = (projects) => {
   let newProject = '';
@@ -39,4 +30,4 @@ const initializeProjects = () => {
   });
 };
 
-export default;
+export default { initializeProjects };
