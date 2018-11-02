@@ -2,6 +2,11 @@ import $ from 'jquery';
 import 'bootstrap';
 
 const bindEvents = () => {
+  $('#navHome').on('click', () => {
+    $('#bioPage').show();
+    $('#technologiesPage').show();
+    $('#projectsPage').show();
+  });
   $('#navBio').on('click', () => {
     $('#bioPage').show();
     $('#technologiesPage').hide();
