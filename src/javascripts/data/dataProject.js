@@ -1,4 +1,5 @@
 import $ from 'jquery';
+import 'bootstrap';
 
 const loadProjects = () => {
   const projectsPromise = new Promise((resolve, reject) => {

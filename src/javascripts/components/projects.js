@@ -1,5 +1,4 @@
 import $ from 'jquery';
-
 import 'bootstrap';
 
 import projectsData from '../data/dataProject';
