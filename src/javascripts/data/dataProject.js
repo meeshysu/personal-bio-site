@@ -1,10 +1,11 @@
 import $ from 'jquery';
+import 'bootstrap';
 
 const loadProjects = () => {
   const projectsPromise = new Promise((resolve, reject) => {
-    $.get('../db/projects.json')
+    $.get('http://localhost:3003/projects')
       .done((data) => {
-        resolve(data.projects);
+        resolve(data);
       })
       .fail((error) => {
         reject(error);
