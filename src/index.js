@@ -1,8 +1,8 @@
-import initializeProjects from './javascripts/components/projects';
-import navBarSelection from './javascripts/helpers/events';
+import viewProject from './javascripts/components/projects';
+import navbarClick from './javascripts/helpers/events';
 
 const initializeApp = () => {
-  initializeProjects();
-  navBarSelection();
+  viewProject.initializeProjects();
+  navbarClick.bindEvents();
 };
 initializeApp();

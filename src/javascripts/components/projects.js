@@ -2,7 +2,7 @@ import $ from 'jquery';
 
 import 'bootstrap';
 
-import loadProjects from '../data/dataProject';
+import projectsData from '../data/dataProject';
 
 const createProjectCards = (projects) => {
   let newProject = '';
@@ -17,13 +17,13 @@ const createProjectCards = (projects) => {
      <p>${project.githubUrl}</p></div>
     </div>`;
     if (project.available === true) {
-      $('#projectsPage').append(newProject);
+      $('#projectsPage').html(newProject);
     }
   });
 };
 
 const initializeProjects = () => {
-  loadProjects().then((projects) => {
+  projectsData.loadProjects().then((projects) => {
     createProjectCards(projects);
   }).catch((error) => {
     console.error(error);

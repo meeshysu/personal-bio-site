@@ -2,7 +2,7 @@
   "projects": [
 {
   "title": "My Website?",
-  "screenshot": "http://gotoflashgames.com/files/file/033.jpg",
+  "screenshot": "",
   "description": "Short description", 
   "technologiesUsed": "HTML, CSS, Vanilla JavaScript, Version Control with Github ",
   "available": true,
@@ -11,7 +11,7 @@
 },
 {
   "title": "The Cheese Project",
-  "screenshot": "http://gotoflashgames.com/files/file/033.jpg",
+  "screenshot": "",
   "description": "This is the best project",
   "technologiesUsed": "HTML, CSS, Vanilla JavaScript, Version Control with Github",
   "available": true,
@@ -20,7 +20,7 @@
 },
 {
   "title": "Cool Project",
-  "screenshot": "http://gotoflashgames.com/files/file/033.jpg",
+  "screenshot": "",
   "description": "This is the best project",
   "technologiesUsed": "HTML, CSS, Vanilla JavaScript, Version Control with Github ",
   "available": false,
