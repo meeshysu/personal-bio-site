@@ -2,6 +2,9 @@ import $ from 'jquery';
 import 'bootstrap';
 
 import projectsData from '../data/dataProject';
+import techImage from '../../images/TalentStrip.png';
+
+$('#technologiesPage').attr('src', techImage);
 
 const createProjectCards = (projects) => {
   let newProject = '';
@@ -22,11 +25,13 @@ const createProjectCards = (projects) => {
 };
 
 const initializeProjects = () => {
-  projectsData.loadProjects().then((projects) => {
-    createProjectCards(projects);
-  }).catch((error) => {
-    console.error(error);
-  });
+  projectsData.loadProjects()
+    .then((data) => {
+      createProjectCards(data.data);
+      console.log(data.data);
+    }).catch((error) => {
+      console.error(error);
+    });
 };
 
 export default { initializeProjects };

@@ -1,28 +1,52 @@
 @import "~bootstrap/scss/bootstrap";
 
 body {
-    background-color: chartreuse;
+    background-image: url(images/Succulents.jpg);
+    background-size: cover;
 }
 
-.myName {
-    text-align: center;
-    margin: auto;
-    padding: auto;
-}
-
+//NAVIGATION BAR
 #navLinks {
     max-width: 100%;
 }
 
-#bioPage {
-    font-size: 11px;
-    margin: 10px;   
-    padding: 10px;
+#nameNav {
+    color: black;
 }
 
+//ABOUT ME
+#bioPage {
+    font-size: 14px;
+    margin-left: 15%;   
+    margin-top: 5%;
+    padding: 10px;
+    max-width: 70%;
+    text-align: justify;
+    text-emphasis: bolder;
+    border: 1px double black;
+    border-radius: 25px;
+}
+
+$lightgray: #eeeeee;
+$gray: #e0e0e0;
+$anothergray: #bdbdbd;
+$list: $lightgray, $gray, $anothergray;
+
+@mixin gradient($direction, $list) { 
+    background: -webkit-linear-gradient($direction, $list);
+    background: -moz-linear-gradient($direction, $list);
+    background: -o-linear-gradient($direction, $list);
+    background: linear-gradient($direction, $list);  
+  }
+
+.container {
+    @include gradient(top, $list);
+    opacity: .8;
+}
+
+//TECHNOLOGIES
 .techTitle {
     text-align: center;
-    font-family: 'Cabin Sketch', cursive;
     padding: 15px;
     margin: auto;
     display: flex;
@@ -31,18 +55,25 @@ body {
     padding: 30px;
     margin: auto;
     align-content: center;
-
 }
 
+//PROJECTS
 #projectsPage {
-    display: flex;  
-    flex-wrap: wrap;
-    justify-content: space-between;
-    padding: 50px;
-    margin: 50px;  
-    background-color: bisque;
-    border: 1px slateblue dashed;
-    text-align: center;
+    // display: flex;  
+    // display: table;
+    // flex-wrap: wrap;
+    // justify-content: space-between;
+    // padding: 50px;
+    // margin: 50px;  
+    // background-color: bisque;
+    // border: 1px slateblue dashed;
+    // text-align: center;
+}
+
+//PROJECT CARDS
+#cards {
+    display: table;
+    
 }
 
 #cards p {
