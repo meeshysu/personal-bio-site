@@ -63,8 +63,9 @@ $list: $lightgray, $gray, $anothergray;
     // display: table;
     // flex-wrap: wrap;
     // justify-content: space-between;
-    // padding: 50px;
-    // margin: 50px;  
+    padding: 50px;
+    margin: 50px;
+    margin-left: 10%;
     // background-color: bisque;
     // border: 1px slateblue dashed;
     // text-align: center;
@@ -72,8 +73,9 @@ $list: $lightgray, $gray, $anothergray;
 
 //PROJECT CARDS
 #cards {
-    display: table;
-    
+    text-align: center;
+    display: table-cell;
+    padding: 1%;
 }
 
 #cards p {
