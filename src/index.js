@@ -2,6 +2,7 @@ import 'jquery';
 import 'bootstrap';
 import firebase from 'firebase/app';
 import './main.scss';
+import './Styles/styleChange.scss';
 import apiKeys from '../db/apiKeys.json';
 
 import initializeProjects from './javascripts/components/projects';

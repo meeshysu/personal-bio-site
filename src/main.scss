@@ -1,23 +1,9 @@
 @import "~bootstrap/scss/bootstrap";
 
 //NAVIGATION BAR
-#navLinks {
-    max-width: 100%;
-}
-
-#nameNav {
-    @import url('https://fonts.googleapis.com/css?family=Amatic+SC');
-    color: black;
-    font-size: 36px;
-    font-family: 'Amatic SC', cursive;
-    a {
-        color: inherit;
-    }
-    li {
-        color: inherit;
-    }
-}
-
+// #navLinks {
+//     max-width: 100%;
+// }
 
 //NAME ANIMATION
 @import url('https://fonts.googleapis.com/css?family=Fredericka+the+Great');
