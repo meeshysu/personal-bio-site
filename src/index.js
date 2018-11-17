@@ -1,14 +1,16 @@
 import 'jquery';
 import 'bootstrap';
-
+import firebase from 'firebase/app';
 import './main.scss';
+import apiKeys from '../db/apiKeys.json';
 
-import viewProject from './javascripts/components/projects';
+import initializeProjects from './javascripts/components/projects';
 import navbarClick from './javascripts/helpers/events';
 
 
 const initializeApp = () => {
-  viewProject.initializeProjects();
+  firebase.initializeApp(apiKeys.firebaseKeys);
+  initializeProjects.initializeProjects();
   navbarClick.bindEvents();
 };
 initializeApp();
