@@ -1,7 +1,7 @@
 import $ from 'jquery';
 import 'bootstrap';
 
-import projectsData from '../data/dataProject';
+import getProjectsFromDb from '../data/dataProject';
 
 import techImage from '../../images/TalentStrip.png';
 import coopie from '../../images/Coopie.jpg';
@@ -28,9 +28,9 @@ const createProjectCards = (projects) => {
 };
 
 const initializeProjects = () => {
-  projectsData.loadProjects()
+  getProjectsFromDb.getProjectsFromDb()
     .then((data) => {
-      createProjectCards(data.data);
+      createProjectCards(data);
       console.log(data.data);
     }).catch((error) => {
       console.error(error);
