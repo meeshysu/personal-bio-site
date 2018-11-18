@@ -1,0 +1,86 @@
+body {
+  overflow: hidden;
+}
+
+
+#nameNav {
+  @import url('https://fonts.googleapis.com/css?family=Amatic+SC');
+  color: black;
+  font-size: 36px;
+  font-family: 'Amatic SC', cursive;
+  a {
+      color: inherit;
+  }
+  li {
+      color: inherit;
+  }
+}
+
+#navigationSpace {
+  bottom: 0;
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+}
+
+#nameNav {
+  width: 100%;
+  height: 70px;
+  background: rgb(230, 248, 230);
+  z-index: 9;
+  bottom: 0;
+}
+
+#navHome {
+  margin-left: 30%;
+}
+
+#navHome:hover {
+  color: rgb(187, 221, 107);
+}
+
+#navBio {
+  margin-left: 68%;
+}
+
+#navTech {
+  margin-left: 90%;
+}
+
+#navProject {
+  margin-left: 100%;
+}
+
+.bio:hover:after {
+  bottom: 100%;
+	border: solid transparent;
+	content: '';
+	height: 0;
+	width: 0;
+	position: absolute;
+	pointer-events: none;
+	border-bottom-color: rgb(230, 248, 230);
+	border-width: 20px;
+	left: 50%;
+	margin-left: -20px;
+}
+
+#whole,
+#bioContainer {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+#whole {
+  top: 0;
+  left: 0;
+  transition: all 0.6s ease-in-out;
+  -webkit-transform: translate3d(0, 0, 0);
+  -webkit-backface-visibiltiy: hidden;
+}
+
+#bioContainer {
+  background: fff;
+  overflow: hidden;
+}
