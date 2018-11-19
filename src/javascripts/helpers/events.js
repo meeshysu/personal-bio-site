@@ -16,7 +16,7 @@ const bindEvents = () => {
     $('#banner').hide();
     $('#contactPage').hide();
   });
-  $('#navTech').on('click', () => {
+  $('#navTech:checked').on('click', () => {
     $('#bioPage').hide();
     $('#technologiesPage').show();
     $('#projectsPage').hide();
