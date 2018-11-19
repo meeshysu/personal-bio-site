@@ -6,44 +6,46 @@
   <title>Michelle's Personal Website</title>
 </head>
 
+<div id="banner">
 <div id="nameAnimation">
     <p class="line-1 animationTypeWriter">Michelle Beshears</p>
 </div>
+</div>
 
 <body>
-  <!-- Navigation -->
-  <nav>
-    <nav id="nameNav" class="navbar navbar-expand-lg">
-        <ul class="navbar-nav">
-          <div id="navHome">
-              <a class="nav-link" href="#">Home</a>
-          </div>
-          <div id="navBio">
-            <li class="nav-link">
-              <a id="navToBio" href="#">Bio</a>
-            </li>
-          </div>
-          <div id="navTech">
-            <li class="nav-link">
-              <a id="navToTech" href="#">Technologies</a>
-            </li>
-          </div>
-          <div id="navProject">
-            <li class="nav-link">
-              <a id="navToProjects" href="#">Projects</a>
-            </li>
-          </div>
-        </ul>
+    <div class="navigationBar">
+			
+        <input type="radio" name="radio-set" id="homeControl"/>
+        <a id="navHome" href="#homePanel">Home</a>
+        
+        <input type="radio" name="radio-set" id="bioControl"/>
+        <a id="navBio" href="#bioPanel">Biography</a>
+        
+        <input type="radio" name="radio-set" id="techControl"/>
+        <a id="navTech" href="#techPanel">Technology</a>
+        
+        <input type="radio" name="radio-set" id="projectControl"/>
+        <a id="navProject" href="#projectPanel">Projects</a>
+
+        <input type="radio" name="radio-set" id="contactControl"/>
+        <a id="navContact" href="#contactPanel">Contact</a>
+        
+        <div class="navbar-scroll">
+      
+        </div>
+        
       </div>
-    </nav>
-    <!-- End Navigation -->
+ 
 
       
- 
+ <div class="whole">
+
+  <div id="homeContainer" section class="section0"> </div>
+
     <!-- Primary View -->
-    <div id="bioContainer">
+    <div id="bioContainer" section class="section1">
       <img id="coopiePhoto"></img>
-        <div id="bioPage" class="container">
+        <div id="bioPage">
       <p id="bioInfo">As a little girl, it was very clear that I had a love for everything 'outside'. Most of that time I spent
         following my mom around in the garden. On occasion, attempting to eat a rolly-polly or two. My childhood
         consisted of being outside, all day and every day. We had a Nintendos and the very first PlayStation (which did
@@ -89,22 +91,26 @@
     </div>
   </div>
 
-    <div class="fullPage" id="technologiesPage">
+    <div id="technologiesPage" section class="section2">
 
     </div>
 
-    <div class="fullPage" id="projectsPage"></div>
+    <div id="projectsPage" section class="section3">
+      
+    </div>
+
+    <div id="contactPage" section class="section4"></div>
     <!-- End Primary View -->
 
     <!-- Footer -->
-    <footer class="page-footer">
+    <!-- <footer class="page-footer">
 
       
       <p>You can contact me at meeshalden@gmail.com<p>
           <p>Click <a href="https://github.com/meeshysu">here</a> to visit my GitHub page</p>
-    </footer>
+    </footer> -->
     <!-- End Footer -->
-
+  </div>
 </body>
 
 </html>
