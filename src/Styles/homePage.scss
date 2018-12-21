@@ -1,6 +1,6 @@
-body {
-  overflow: hidden;
-}
+// body {
+//   overflow: hidden;
+// }
 
 #nameNav {
   @import url('https://fonts.googleapis.com/css?family=Amatic+SC');
@@ -172,7 +172,7 @@ left: 20%;
 
 .section1, .section2, .section3 {
 	background: #fff;
-	overflow: hidden;
+	// overflow: hidden;
 } 
 
 #homeControl:checked ~ .whole {
