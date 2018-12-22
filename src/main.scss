@@ -9,19 +9,27 @@
 @import url('https://fonts.googleapis.com/css?family=Fredericka+the+Great');
 html {
     min-height: 100%;
-    // overflow: hidden;
+    overflow: hidden;
+}
+
+#banner {
+    background-image: url(images/Succ.png);
+    // background-repeat: no-repeat;
+    background-image: center;
+    overflow: hidden;
 }
 
 #nameAnimation {
-    height: calc(60vh - 4em);
+    height: calc(120vh - 4em);
     color: white;
-    background-image: url(images/Cacti.png);
+    font-size: 20px;
     font-family: 'Fredericka the Great', cursive;
+    text-shadow: 5px 1px 1px rgb(59, 59, 59);
 }
 
 .line-1 {
     position: relative;
-    top: 50%;
+    top: 40%;
     width: 10em;
     margin: 0 auto;
     font-size: 400%;
@@ -42,8 +50,6 @@ html {
 //ABOUT ME
 #bioPage {
     font-size: 14px;
-    margin-top: 5%;
-    padding: 10px;
     max-width: 40%;
     text-align: justify;
     text-emphasis: bolder;
@@ -109,13 +115,6 @@ PROJECT CARDS
     text-align: center;
     font-size: 12px;
 }
-
-// .container-cards {
-//     // display: flex;
-//     // flex-direction: column;
-//     // justify-content: flex-start;
-//     max-width: 30%;
-// }
 
 #cards img {
     background-color: lavenderblush;

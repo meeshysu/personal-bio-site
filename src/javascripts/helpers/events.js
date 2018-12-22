@@ -3,11 +3,12 @@ import 'bootstrap';
 
 const bindEvents = () => {
   $('#navHome').on('click', () => {
-    $('#bioPage').show();
-    $('#technologiesPage').show();
-    $('#projectsPage').show();
+    $('#bioPage').hide();
+    $('#technologiesPage').hide();
+    $('#projectsPage').hide();
     $('#banner').show();
     $('#contactPage').hide();
+    $('#coopiePhoto').hide();
   });
   $('#navBio').on('click', () => {
     $('#bioPage').show();
