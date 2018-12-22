@@ -22,6 +22,7 @@ const bindEvents = () => {
     $('#projectsPage').hide();
     $('#banner').hide();
     $('#contactPage').hide();
+    $('#coopiePhoto').hide();
   });
   $('#navProject').on('click', () => {
     $('#bioPage').hide();
@@ -29,6 +30,7 @@ const bindEvents = () => {
     $('#projectsPage').show();
     $('#banner').hide();
     $('#contactPage').hide();
+    $('#coopiePhoto').hide();
   });
   $('#navContact').on('click', () => {
     $('#bioPage').hide();
@@ -36,6 +38,7 @@ const bindEvents = () => {
     $('#projectsPage').hide();
     $('#banner').hide();
     $('#contactPage').show();
+    $('#coopiePhoto').hide();
   });
 };
 

@@ -12,7 +12,7 @@ $('#coopiePhoto').attr('src', coopie);
 const createProjectCards = (projects) => {
   let newProject = '';
   projects.forEach((project) => {
-    newProject += `<div id='cards'>
+    newProject += `<div id='cards' class='container-cards'> 
     <h2>${project.title}</h2>
     <img src='${project.screenshot}'></img>
     <div class="content"><p>${project.description}</p>
@@ -37,4 +37,6 @@ const initializeProjects = () => {
     });
 };
 
-export default { initializeProjects };
+export default {
+  initializeProjects,
+};
