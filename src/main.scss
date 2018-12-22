@@ -94,25 +94,11 @@ $list: $lightgray, $gray, $anothergray;
 //     align-content: right;
 // }
 
-PROJECTS
-#projectsPage {
-    display: flex;  
-    display: table;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    padding: 50px;
-    margin: 50px;
-    margin-left: 10%;
-    background-color: bisque;
-    border: 1px slateblue dashed;
-    text-align: center;
-}
 
 PROJECT CARDS
 #projectsPage {
     display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
+    flex-direction: row;
     max-width: 30%;
 }
 
@@ -124,12 +110,12 @@ PROJECT CARDS
     font-size: 12px;
 }
 
-.container-cards {
-    // display: flex;
-    // flex-direction: column;
-    // justify-content: flex-start;
-    max-width: 30%;
-}
+// .container-cards {
+//     // display: flex;
+//     // flex-direction: column;
+//     // justify-content: flex-start;
+//     max-width: 30%;
+// }
 
 #cards img {
     background-color: lavenderblush;
