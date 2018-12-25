@@ -1,3 +1,87 @@
-// #technologiesPage {
-//   margin-top: -600px;
-// }
+#technologiesPage {
+  margin-top: -600px;
+}
+
+#htmlPhoto, #cssPhoto, #githubPhoto, #jsPhoto, #jqPhoto, #scssPhoto {
+  position: relative;
+  // background-color: lightgrey;
+}
+
+.icon-container .polaroid {
+  position: absolute;
+  border: 1px solid darkgrey;
+  background-color: white;
+  padding: 15px 15px 20px 15px;
+  box-shadow: 5px 10px 10px darkgrey;
+}
+
+.icon-container .html-icon {
+  z-index: 1;
+  left: 240px;
+  top: 100px;
+  transform: rotate(-20deg);
+  -ms-transform: rotate(-20deg);
+  -webkit-transform: rotate(-20deg);
+}
+
+.icon-container .css-icon {
+  left: 50px;
+  top: 10px;
+  transform: rotate(20deg);
+  -ms-transform: rotate(20deg);
+  -webkit-transform: rotate(20deg);
+}
+
+.icon-container .javascript-icon {
+  z-index: 1;
+  left: 450px;
+  top: 100px;
+  transform: rotate(-10deg);
+  -ms-transform: rotate(-10deg);
+  -webkit-transform: rotate(-10deg);
+}
+
+.icon-container .github-icon {
+  z-index: 2;
+  left: 640px;
+  top: 100px;
+  transform: rotate(-5deg);
+  -ms-transform: rotate(-10deg);
+  -webkit-transform: rotate(8deg);
+}
+
+.icon-container .jquery-icon {
+  z-index: 2;
+  left: 690px;
+  top: 330px;
+  transform: rotate(-15deg);
+  -ms-transform: rotate(-10deg);
+  -webkit-transform: rotate(18deg);
+}
+
+.icon-container .scss-icon {
+  z-index: 3;
+  left: 840px;
+  top: 140px;
+  transform: rotate(30deg);
+  -ms-transform: rotate(-10deg);
+  -webkit-transform: rotate(-15deg);
+}
+
+.icon-container .bootstrap-icon {
+  z-index: 2;
+  left: 1030px;
+  top: 90px;
+  transform: rotate(10deg);
+  -ms-transform: rotate(10deg);
+  -webkit-transform: rotate(2deg);
+}
+
+.icon-container .gitbash-icon {
+  z-index: 3;
+  left: 1220px;
+  top: 50px;
+  transform: rotate(5deg);
+  -ms-transform: rotate(10deg);
+  -webkit-transform: rotate(15deg);
+}
