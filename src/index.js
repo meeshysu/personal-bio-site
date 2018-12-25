@@ -2,6 +2,10 @@ import 'jquery';
 import 'bootstrap';
 import firebase from 'firebase/app';
 import './main.scss';
+import './Styles/contact.scss';
+import './Styles/biography.scss';
+import './Styles/technology.scss';
+import './Styles/projects.scss';
 import './Styles/homePage.scss';
 import apiKeys from '../db/apiKeys.json';
 

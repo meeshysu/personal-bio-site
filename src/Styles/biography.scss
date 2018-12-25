@@ -1,0 +1,72 @@
+//ABOUT ME
+
+#bioContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+#bioPage {
+  font-size: 14px;
+  max-width: 40%;
+  max-height: 60%;
+  text-align: justify;
+  text-emphasis: bolder;
+  border: 1px double black;
+  border-radius: 25px;
+  padding: 2%;
+  margin: 5%;
+  display: flex;
+  flex-shrink: inherit;
+}
+
+.bio-scroll, .outer-container {
+  height: 400px;
+  width: 400px;
+  border-radius: 10px;
+ }
+
+ .outer-container {
+  object-fit: contain;
+  position: relative;
+  overflow: hidden;
+ }
+
+ .inner-container {
+  position: absolute;
+  left: 0;
+  overflow-x: hidden;
+  overflow-y: scroll;
+ }
+
+ .inner-container::-webkit-scrollbar {
+  display: none;
+ }
+
+
+.section1 {
+  display: flex;
+  flex-direction: row;
+  margin-top: -600px;
+}
+
+#headshotPhoto {
+  height: 60%;
+}
+
+$lightgray: #eeeeee;
+$gray: #e0e0e0;
+$anothergray: #bdbdbd;
+$list: $lightgray, $gray, $anothergray;
+
+@mixin gradient($direction, $list) { 
+  background: -webkit-linear-gradient($direction, $list);
+  background: -moz-linear-gradient($direction, $list);
+  background: -o-linear-gradient($direction, $list);
+  background: linear-gradient($direction, $list);  
+}
+
+.container {
+  @include gradient(top, $list);
+  opacity: .8;
+}

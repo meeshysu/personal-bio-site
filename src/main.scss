@@ -1,10 +1,5 @@
 @import "~bootstrap/scss/bootstrap";
 
-//NAVIGATION BAR
-// #navLinks {
-//     max-width: 100%;
-// }
-
 //NAME ANIMATION
 @import url('https://fonts.googleapis.com/css?family=Fredericka+the+Great');
 html {
@@ -20,7 +15,7 @@ html {
 }
 
 #nameAnimation {
-    height: calc(120vh - 4em);
+    height: calc(115vh - 4em);
     color: white;
     font-size: 20px;
     font-family: 'Fredericka the Great', cursive;
@@ -46,60 +41,6 @@ html {
     from{width: 0;}
     to{width: 20em;}
 }
-
-//ABOUT ME
-#bioPage {
-    font-size: 14px;
-    max-width: 40%;
-    text-align: justify;
-    text-emphasis: bolder;
-    border: 1px double black;
-    border-radius: 25px;
-}
-
-#bioContainer {
-    display: flex;
-    flex-direction: row;
-}
-
-#coopiePhoto {
-    border-radius: 50%;
-    height: 50%;
-    width: 30%;
-    margin: 10%;
-    margin-top: 5%;
-}
-
-$lightgray: #eeeeee;
-$gray: #e0e0e0;
-$anothergray: #bdbdbd;
-$list: $lightgray, $gray, $anothergray;
-
-@mixin gradient($direction, $list) { 
-    background: -webkit-linear-gradient($direction, $list);
-    background: -moz-linear-gradient($direction, $list);
-    background: -o-linear-gradient($direction, $list);
-    background: linear-gradient($direction, $list);  
-  }
-
-.container {
-    @include gradient(top, $list);
-    opacity: .8;
-}
-
-// TECHNOLOGIES
-// .techTitle {
-//     text-align: center;
-//     padding: 15px;
-//     margin: auto;
-//     display: flex;
-//     flex-wrap: wrap;
-//     flex-direction: row;
-//     padding: 50px;
-//     margin: auto;
-//     align-content: right;
-// }
-
 
 PROJECT CARDS
 #projectsPage {
