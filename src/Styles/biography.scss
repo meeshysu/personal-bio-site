@@ -1,5 +1,11 @@
 //ABOUT ME
 
+#bioContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
 #bioPage {
   display: flex;
   font-size: 14px;
