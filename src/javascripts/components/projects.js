@@ -3,11 +3,14 @@ import 'bootstrap';
 
 import getProjectsFromDb from '../data/dataProject';
 
-import techImage from '../../images/TalentStrip.png';
 import me from '../../images/Headshot.png';
+import htmlPhoto from '../../images/TechIcons/HTML.png';
+import cssPhoto from '../../images/TechIcons/CSS.png';
 
-$('#technologiesPage').attr('src', techImage);
 $('#headshotPhoto').attr('src', me);
+$('.html-icon').attr('src', htmlPhoto);
+$('.css-icon').attr('src', cssPhoto);
+
 
 const createProjectCards = (projects) => {
   let newProject = '';
