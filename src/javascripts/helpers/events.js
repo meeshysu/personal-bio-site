@@ -3,43 +3,43 @@ import 'bootstrap';
 
 const bindEvents = () => {
   $('#navHome').on('click', () => {
-    $('#bioPage').hide();
+    $('#bioContainer').hide();
     $('#technologiesPage').hide();
     $('#projectsPage').hide();
     $('#banner').show();
     $('#contactPage').hide();
-    $('#coopiePhoto').hide();
+    $('#headshotPhoto').hide();
   });
   $('#navBio').on('click', () => {
-    $('#bioPage').show();
+    $('#bioContainer').show();
     $('#technologiesPage').hide();
     $('#projectsPage').hide();
     $('#banner').hide();
-    $('#contactPage').hide();
+    $('#headshotPhoto').show();
   });
   $('#navTech').on('click', () => {
-    $('#bioPage').hide();
+    $('#bioContainer').hide();
     $('#technologiesPage').show();
     $('#projectsPage').hide();
     $('#banner').hide();
     $('#contactPage').hide();
-    $('#coopiePhoto').hide();
+    $('#headshotPhoto').hide();
   });
   $('#navProject').on('click', () => {
-    $('#bioPage').hide();
+    $('#bioContainer').hide();
     $('#technologiesPage').hide();
     $('#projectsPage').show();
     $('#banner').hide();
     $('#contactPage').hide();
-    $('#coopiePhoto').hide();
+    $('#headshotPhoto').hide();
   });
   $('#navContact').on('click', () => {
-    $('#bioPage').hide();
+    $('#bioContainer').hide();
     $('#technologiesPage').hide();
     $('#projectsPage').hide();
     $('#banner').hide();
     $('#contactPage').show();
-    $('#coopiePhoto').hide();
+    $('#headshotPhoto').hide();
   });
 };
 

@@ -4,10 +4,10 @@ import 'bootstrap';
 import getProjectsFromDb from '../data/dataProject';
 
 import techImage from '../../images/TalentStrip.png';
-import coopie from '../../images/Coopie.jpg';
+import me from '../../images/Headshot.png';
 
 $('#technologiesPage').attr('src', techImage);
-$('#coopiePhoto').attr('src', coopie);
+$('#headshotPhoto').attr('src', me);
 
 const createProjectCards = (projects) => {
   let newProject = '';
