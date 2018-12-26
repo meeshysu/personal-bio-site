@@ -9,9 +9,10 @@ import cssPhoto from '../../images/TechIcons/CSS150.png';
 import githubPhoto from '../../images/TechIcons/GITHUB150.png';
 import jsPhoto from '../../images/TechIcons/JavaScriptPhoto.png';
 import jqPhoto from '../../images/TechIcons/jquery150.png';
-import scssPhoto from '../../images/TechIcons/Sassy150.png';
+import scssPhoto from '../../images/TechIcons/Sassy1.png';
 import bsPhoto from '../../images/TechIcons/BootStrap145.png';
-import gitbashPhoto from '../../images/TechIcons/gitBash150.png';
+import gitbashPhoto from '../../images/TechIcons/GitBash.png';
+import vsPhoto from '../../images/TechIcons/VS.png';
 
 
 $('#headshotPhoto').attr('src', me);
@@ -23,6 +24,7 @@ $('#jqPhoto').attr('src', jqPhoto);
 $('#scssPhoto').attr('src', scssPhoto);
 $('#bsPhoto').attr('src', bsPhoto);
 $('#gitbashPhoto').attr('src', gitbashPhoto);
+$('#vsPhoto').attr('src', vsPhoto);
 
 
 const createProjectCards = (projects) => {
