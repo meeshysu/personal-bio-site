@@ -4,12 +4,32 @@ import 'bootstrap';
 import getProjectsFromDb from '../data/dataProject';
 
 import me from '../../images/Headshot.png';
-import htmlPhoto from '../../images/TechIcons/HTML.png';
-import cssPhoto from '../../images/TechIcons/CSS.png';
+import htmlPhoto from '../../images/TechIcons/HTML150.png';
+import cssPhoto from '../../images/TechIcons/CSS150.png';
+import githubPhoto from '../../images/TechIcons/GITHUB150.png';
+import jsPhoto from '../../images/TechIcons/JavaScriptPhoto.png';
+import jqPhoto from '../../images/TechIcons/jquery150.png';
+import scssPhoto from '../../images/TechIcons/Sassy1.png';
+import bsPhoto from '../../images/TechIcons/BootStrap145.png';
+import gitbashPhoto from '../../images/TechIcons/GitBash.png';
+import vsPhoto from '../../images/TechIcons/VS.png';
+import reactPhoto from '../../images/TechIcons/React60.png';
+import blueFlower from '../../images/TechIcons/Leaves.png';
+// import succulent from '../../images/TechIcons/Succulents.png';
+
 
 $('#headshotPhoto').attr('src', me);
-$('.html-icon').attr('src', htmlPhoto);
-$('.css-icon').attr('src', cssPhoto);
+$('#htmlPhoto').attr('src', htmlPhoto);
+$('#cssPhoto').attr('src', cssPhoto);
+$('#githubPhoto').attr('src', githubPhoto);
+$('#jsPhoto').attr('src', jsPhoto);
+$('#jqPhoto').attr('src', jqPhoto);
+$('#scssPhoto').attr('src', scssPhoto);
+$('#bsPhoto').attr('src', bsPhoto);
+$('#gitbashPhoto').attr('src', gitbashPhoto);
+$('#vsPhoto').attr('src', vsPhoto);
+$('#reactPhoto').attr('src', reactPhoto);
+$('#blueFlower').attr('src', blueFlower);
 
 
 const createProjectCards = (projects) => {
