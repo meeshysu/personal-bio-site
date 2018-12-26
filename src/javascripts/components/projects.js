@@ -13,6 +13,9 @@ import scssPhoto from '../../images/TechIcons/Sassy1.png';
 import bsPhoto from '../../images/TechIcons/BootStrap145.png';
 import gitbashPhoto from '../../images/TechIcons/GitBash.png';
 import vsPhoto from '../../images/TechIcons/VS.png';
+import reactPhoto from '../../images/TechIcons/React60.png';
+import blueFlower from '../../images/TechIcons/Leaves.png';
+// import succulent from '../../images/TechIcons/Succulents.png';
 
 
 $('#headshotPhoto').attr('src', me);
@@ -25,6 +28,8 @@ $('#scssPhoto').attr('src', scssPhoto);
 $('#bsPhoto').attr('src', bsPhoto);
 $('#gitbashPhoto').attr('src', gitbashPhoto);
 $('#vsPhoto').attr('src', vsPhoto);
+$('#reactPhoto').attr('src', reactPhoto);
+$('#blueFlower').attr('src', blueFlower);
 
 
 const createProjectCards = (projects) => {

@@ -24,6 +24,7 @@
 }
 
 .icon-container .css-icon {
+  z-index: 1;
   left: 50px;
   top: 10px;
   transform: rotate(20deg);
@@ -92,4 +93,21 @@
   transform: rotate(5deg);
   -ms-transform: rotate(10deg);
   -webkit-transform: rotate(-10deg);
+}
+
+.icon-container .react-icon {
+  z-index: 2;
+  left: 1200px;
+  top: 10px;
+  transform: rotate(5deg);
+  -ms-transform: rotate(10deg);
+  -webkit-transform: rotate(35deg);
+}
+
+.plant-image {
+  left: 1200px;
+  top: 10px;
+  transform: rotate(5deg);
+  -ms-transform: rotate(10deg);
+  -webkit-transform: rotate(35deg);
 }
