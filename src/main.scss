@@ -10,12 +10,12 @@ html {
 #banner {
     background-image: url(images/Succ.png);
     // background-repeat: no-repeat;
-    background-image: center;
+    background-image: contain;
     overflow: hidden;
 }
 
 #nameAnimation {
-    height: calc(115vh - 4em);
+    height: calc(115vh - 3em);
     color: white;
     font-size: 20px;
     font-family: 'Fredericka the Great', cursive;
