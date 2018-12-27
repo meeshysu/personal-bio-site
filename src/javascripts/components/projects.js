@@ -3,7 +3,7 @@ import 'bootstrap';
 
 import getProjectsFromDb from '../data/dataProject';
 
-import me from '../../images/Headshot.png';
+import me from '../../images/Headshot2.png';
 import htmlPhoto from '../../images/TechIcons/HTML150.png';
 import cssPhoto from '../../images/TechIcons/CSS150.png';
 import githubPhoto from '../../images/TechIcons/GITHUB150.png';
@@ -14,8 +14,15 @@ import bsPhoto from '../../images/TechIcons/BootStrap145.png';
 import gitbashPhoto from '../../images/TechIcons/GitBash.png';
 import vsPhoto from '../../images/TechIcons/VS.png';
 import reactPhoto from '../../images/TechIcons/React60.png';
-import blueFlower from '../../images/TechIcons/Leaves.png';
-// import succulent from '../../images/TechIcons/Succulents.png';
+import greenBlueSucc from '../../images/SucculentImages/greenBlueSucc.png';
+import lightBlueSucc from '../../images/SucculentImages/lightBlueSucc.png';
+import pinkSucc from '../../images/SucculentImages/pinkSucc.png';
+import tealSucc from '../../images/SucculentImages/tealSucc.png';
+import pinkSucc2 from '../../images/SucculentImages/pinkSucc2.png';
+import purpleSucc from '../../images/SucculentImages/purpleSucc.png';
+import lightGreenSucc from '../../images/SucculentImages/lightGreenSucc.png';
+import brightSucc from '../../images/SucculentImages/brightSucc.png';
+import purpleGreenSucc from '../../images/SucculentImages/purpleGreenSucc.png';
 
 
 $('#headshotPhoto').attr('src', me);
@@ -29,7 +36,15 @@ $('#bsPhoto').attr('src', bsPhoto);
 $('#gitbashPhoto').attr('src', gitbashPhoto);
 $('#vsPhoto').attr('src', vsPhoto);
 $('#reactPhoto').attr('src', reactPhoto);
-$('#blueFlower').attr('src', blueFlower);
+$('#greenBlueSucc').attr('src', greenBlueSucc);
+$('#lightBlueSucc').attr('src', lightBlueSucc);
+$('#pinkSucc').attr('src', pinkSucc);
+$('#pinkSucc2').attr('src', pinkSucc2);
+$('#tealSucc').attr('src', tealSucc);
+$('#purpleSucc').attr('src', purpleSucc);
+$('#lightGreenSucc').attr('src', lightGreenSucc);
+$('#brightSucc').attr('src', brightSucc);
+$('#purpleGreenSucc').attr('src', purpleGreenSucc);
 
 
 const createProjectCards = (projects) => {
