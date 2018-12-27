@@ -15,7 +15,7 @@
 }
 
 .icon-container .html-icon {
-  z-index: 1;
+  z-index: 2 ;
   left: 240px;
   top: 100px;
   transform: rotate(-20deg);
@@ -105,8 +105,107 @@
 }
 
 .plant-image {
+  position: absolute;
+  z-index: 2;
+  max-width: 10%;
+  max-height: 10%;
   left: 100px;
-  top: 2400px;
+  top: 240px;
+  transform: rotate(5deg);
+  -ms-transform: rotate(10deg);
+  -webkit-transform: rotate(35deg);
+}
+
+.plant-image2 {
+  position: absolute;
+  z-index: 1;
+  left: -55px;
+  top: 105px;
+  transform: rotate(5deg);
+  -ms-transform: rotate(10deg);
+  -webkit-transform: rotate(35deg);
+}
+
+.plant-image3 {
+  position: absolute;
+  left: 1300px;
+  top: -50px;
+  transform: rotate(5deg);
+  -ms-transform: rotate(10deg);
+  -webkit-transform: rotate(35deg);
+}
+
+.plant-image4 {
+  position: absolute;
+  left: 600px;
+  top: 120px;
+  transform: rotate(5deg);
+  -ms-transform: rotate(10deg);
+  -webkit-transform: rotate(35deg);
+}
+
+.plant-image5 {
+  position: absolute;
+  left: 1600px;
+  top: 10px;
+  transform: rotate(5deg);
+  -ms-transform: rotate(10deg);
+  -webkit-transform: rotate(35deg);
+}
+
+.plant-image6 {
+  position: absolute;
+  z-index: 1;
+  left: 310px;
+  top: -30px;
+  transform: rotate(5deg);
+  -ms-transform: rotate(10deg);
+  -webkit-transform: rotate(-35deg);
+}
+
+.plant-image7 {
+  position: absolute;
+  z-index: 2;
+  left: 500px;
+  top: 290px;
+  transform: rotate(5deg);
+  -ms-transform: rotate(10deg);
+  -webkit-transform: rotate(35deg);
+}
+
+.plant-image8 {
+  position: absolute;
+  left: 1300px;
+  top: 10px;
+  transform: rotate(5deg);
+  -ms-transform: rotate(10deg);
+  -webkit-transform: rotate(35deg);
+}
+
+.plant-image9 {
+  position: absolute;
+  z-index: 1;
+  left: 340px;
+  top: -30px;
+  transform: rotate(5deg);
+  -ms-transform: rotate(10deg);
+  -webkit-transform: rotate(-35deg);
+}
+
+.plant-image10 {
+  position: absolute;
+  z-index: 2;
+  left: 1400px;
+  top: 290px;
+  transform: rotate(5deg);
+  -ms-transform: rotate(10deg);
+  -webkit-transform: rotate(35deg);
+}
+
+.plant-image11 {
+  position: absolute;
+  left: 1300px;
+  top: 10px;
   transform: rotate(5deg);
   -ms-transform: rotate(10deg);
   -webkit-transform: rotate(35deg);
