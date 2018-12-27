@@ -20,11 +20,10 @@ import pinkSucc from '../../images/SucculentImages/pinkSucc.png';
 import tealSucc from '../../images/SucculentImages/tealSucc.png';
 import pinkSucc2 from '../../images/SucculentImages/pinkSucc2.png';
 import purpleSucc from '../../images/SucculentImages/purpleSucc.png';
-// import rainbowSucc from '../../images/SucculentImages/rainbowSucc.png';
-// import brightBlueSucc from '../../images/SucculentImages/brightBlueSucc.png';
 import lightGreenSucc from '../../images/SucculentImages/lightGreenSucc.png';
 import brightSucc from '../../images/SucculentImages/brightSucc.png';
 import purpleGreenSucc from '../../images/SucculentImages/purpleGreenSucc.png';
+
 
 $('#headshotPhoto').attr('src', me);
 $('#htmlPhoto').attr('src', htmlPhoto);
@@ -43,8 +42,6 @@ $('#pinkSucc').attr('src', pinkSucc);
 $('#pinkSucc2').attr('src', pinkSucc2);
 $('#tealSucc').attr('src', tealSucc);
 $('#purpleSucc').attr('src', purpleSucc);
-// $('#rainbowSucc').attr('src', rainbowSucc);
-// $('#brightBlueSucc').attr('src', brightBlueSucc);
 $('#lightGreenSucc').attr('src', lightGreenSucc);
 $('#brightSucc').attr('src', brightSucc);
 $('#purpleGreenSucc').attr('src', purpleGreenSucc);
