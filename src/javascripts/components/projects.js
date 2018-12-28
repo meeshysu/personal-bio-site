@@ -15,7 +15,7 @@ import gitbashPhoto from '../../images/TechIcons/GitBash.png';
 import vsPhoto from '../../images/TechIcons/VS.png';
 import reactPhoto from '../../images/TechIcons/React60.png';
 import blueFlower from '../../images/TechIcons/Leaves.png';
-// import succulent from '../../images/TechIcons/Succulents.png';
+import wreath from '../../images/Wreath.png';
 
 
 $('#headshotPhoto').attr('src', me);
@@ -30,6 +30,7 @@ $('#gitbashPhoto').attr('src', gitbashPhoto);
 $('#vsPhoto').attr('src', vsPhoto);
 $('#reactPhoto').attr('src', reactPhoto);
 $('#blueFlower').attr('src', blueFlower);
+$('#wreath').attr('src', wreath);
 
 
 const createProjectCards = (projects) => {
