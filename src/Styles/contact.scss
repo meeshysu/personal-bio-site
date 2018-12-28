@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css?family=Poiret+One');
+
+#contactPage {
+  margin-top: -600px;
+}
+
+#wreath {
+  z-index: 2;
+  left: 1200px;
+  top: 10px;
+  transform: rotate(5deg);
+  -ms-transform: rotate(10deg);
+  -webkit-transform: rotate(90deg);
+}
+
+.contact-me {
+  margin-left: 23%;
+  margin-top: -10%;
+  font-family: 'Poiret One', cursive;
+  font-size: 65px;
+}
