@@ -19,3 +19,42 @@
   font-family: 'Poiret One', cursive;
   font-size: 65px;
 }
+
+#gitHub-flower {
+  margin-left: 30%;
+  margin-top: 5%;
+  max-width: 5%;
+  transform: rotate(5deg);
+  -ms-transform: rotate(10deg);
+  -webkit-transform: rotate(90deg);
+}
+
+#linkedIn-flower {
+  margin-left: 45%;
+  margin-top: 5%;
+  max-width: 5%;
+  transform: rotate(5deg);
+  -ms-transform: rotate(10deg);
+  -webkit-transform: rotate(90deg);
+}
+
+#email-flower {
+  margin-left: 60%;
+  margin-top: -15%;
+  max-width: 5%;
+}
+
+.email {
+  margin-left: 66%;
+  margin-top: -14%;
+  font-weight: bolder;
+  font-size: 30px;
+  font-family: 'Poiret One', cursive;
+}
+
+.github {
+  margin-left: 1%;
+  font-weight: bolder;
+  font-size: 30px;
+  font-family: 'Poiret One', cursive;
+}
