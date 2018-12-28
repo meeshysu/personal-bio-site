@@ -24,7 +24,7 @@ import purpleSucc from '../../images/SucculentImages/purpleSucc.png';
 import lightGreenSucc from '../../images/SucculentImages/lightGreenSucc.png';
 import brightSucc from '../../images/SucculentImages/brightSucc.png';
 import purpleGreenSucc from '../../images/SucculentImages/purpleGreenSucc.png';
-
+import contact from '../../images/Contact.png';
 
 $('#headshotPhoto').attr('src', me);
 $('#htmlPhoto').attr('src', htmlPhoto);
@@ -50,7 +50,7 @@ $('#brightSucc').attr('src', brightSucc);
 $('#purpleGreenSucc').attr('src', purpleGreenSucc);
 $('#linkedIn-flower').attr('src', brightSucc);
 $('#email-flower').attr('src', greenBlueSucc);
-
+$('#contact-picture').attr('src', contact);
 
 const createProjectCards = (projects) => {
   let newProject = '';

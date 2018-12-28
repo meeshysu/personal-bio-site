@@ -1,0 +1,20 @@
+
+PROJECT CARDS
+#projectsPage {
+    display: flex;
+    flex-direction: row;
+    max-width: 30%;
+}
+
+#cards, #cards p {
+    align-content: center;
+    padding: auto;
+    margin: auto;
+    text-align: center;
+    font-size: 12px;
+}
+
+#cards img {
+    background-color: lavenderblush;
+    padding: 10px;
+}
