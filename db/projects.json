@@ -1,22 +1,31 @@
 {
-  "projects": {
-      "project1": {
-          "title": "My Website?",
-          "screenshot": "",
-          "description": "Short description", 
-          "technologiesUsed": "HTML, CSS, Vanilla JavaScript, Version Control with Github ",
-          "available": true,
-          "url": "https://github.com/nss-evening-cohort-8/js-part-deux", 
-          "githubUrl": "https://github.com/nss-evening-cohort-8/js-part-deux"
-  },
-      "project2": {
-          "title": "The Cheese Project",
-          "screenshot": "",
-          "description": "This is the best project",
-          "technologiesUsed": "HTML, CSS, Vanilla JavaScript, Version Control with Github",
-          "available": true,
-          "url": "https://github.com/nss-evening-cohort-8/js-part-deux", 
-          "githubUrl": "https://github.com/nss-evening-cohort-8/js-part-deux"
-  }
-}
+    "projects": {
+        "project1": {
+            "title": "Shotz!",
+            "screenshot": "http://i63.tinypic.com/250oym1.jpg",
+            "description": "3 Fantastic movies are being created and this website keeps up with those locations, as well as the description of each one of the movies.",
+            "technologiesUsed": "HTML, CSS, SCSS, Vanilla JavaScript, Version Control with Github, jQuery, Webpack/esLint, Firebase, GitBash",
+            "available": true,
+            "url": "https://github.com/nss-evening-cohort-8/js-part-deux",
+            "githubUrl": "https://github.com/meeshysu/shotz"
+        },
+        "project2": {
+            "title": "The To-Do List",
+            "screenshot": "http://i66.tinypic.com/mkhph5.jpg",
+            "description": "Ever forget your to-do list and then miss some of the things you meant to do? Now you don't have to with the To-Do List! Write down all your chores/tasks and edit, delete or add them!",
+            "technologiesUsed": "HTML, CSS, SCSS, Vanilla JavaScript, Version Control with Github, jQuery, Webpack/esLint, Firebase, GitBash",
+            "available": true,
+            "url": "https://github.com/nss-evening-cohort-8/js-part-deux",
+            "githubUrl": "https://github.com/meeshysu/todo-firebase"
+        },
+        "project3": {
+            "title": "Developer++",
+            "screenshot": "http://i64.tinypic.com/ei8eqa.jpg",
+            "description": "Add and access information that you need for studying to be a developer.",
+            "technologiesUsed": "HTML, CSS, SCSS, Vanilla JavaScript, Version Control with Github, jQuery, Webpack/esLint, Firebase, GitBash",
+            "available": true,
+            "url": "https://github.com/nss-evening-cohort-8/js-part-deux",
+            "githubUrl": "https://github.com/meeshysu/developer-portal"
+        }
+    }
 }

@@ -52,15 +52,15 @@ $('#linkedIn-flower').attr('src', brightSucc);
 $('#email-flower').attr('src', greenBlueSucc);
 $('#contact-picture').attr('src', contact);
 
+
 const createProjectCards = (projects) => {
   let newProject = '';
   projects.forEach((project) => {
     newProject += `<div id='cards' class='container-cards'> 
     <h2>${project.title}</h2>
-    <img src='${project.screenshot}'></img>
+    <img class="screenshot" src='${project.screenshot}'></img>
     <div class="content"><p>${project.description}</p>
     <p>${project.technologiesUsed}</p>
-    <p>${project.available}</p>
     <p>${project.url}</p>
      <p>${project.githubUrl}</p></div>
     </div>`;
