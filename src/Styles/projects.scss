@@ -2,11 +2,13 @@
     margin-top: -750px; 
     display: flex;
     flex-direction: row;
-    max-width: 80%;
+    justify-content: space-evenly;
+    // padding: auto;
+    max-width: 100%;
 }
 
 #cards, #cards p {
-    align-content: center;
+    align-content: space-between;
     padding: 1%;
     margin: 5%;
     text-align: center;
