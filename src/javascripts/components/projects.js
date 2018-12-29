@@ -24,7 +24,7 @@ import purpleSucc from '../../images/SucculentImages/purpleSucc.png';
 import lightGreenSucc from '../../images/SucculentImages/lightGreenSucc.png';
 import brightSucc from '../../images/SucculentImages/brightSucc.png';
 import purpleGreenSucc from '../../images/SucculentImages/purpleGreenSucc.png';
-
+import contact from '../../images/Contact.png';
 
 $('#headshotPhoto').attr('src', me);
 $('#htmlPhoto').attr('src', htmlPhoto);
@@ -37,7 +37,6 @@ $('#bsPhoto').attr('src', bsPhoto);
 $('#gitbashPhoto').attr('src', gitbashPhoto);
 $('#vsPhoto').attr('src', vsPhoto);
 $('#reactPhoto').attr('src', reactPhoto);
-// $('#blueFlower').attr('src', blueFlower);
 $('#wreath').attr('src', wreath);
 $('#greenBlueSucc').attr('src', greenBlueSucc);
 $('#lightBlueSucc').attr('src', lightBlueSucc);
@@ -45,10 +44,13 @@ $('#pinkSucc').attr('src', pinkSucc);
 $('#pinkSucc2').attr('src', pinkSucc2);
 $('#tealSucc').attr('src', tealSucc);
 $('#purpleSucc').attr('src', purpleSucc);
+$('#gitHub-flower').attr('src', purpleSucc);
 $('#lightGreenSucc').attr('src', lightGreenSucc);
 $('#brightSucc').attr('src', brightSucc);
 $('#purpleGreenSucc').attr('src', purpleGreenSucc);
-
+$('#linkedIn-flower').attr('src', brightSucc);
+$('#email-flower').attr('src', greenBlueSucc);
+$('#contact-picture').attr('src', contact);
 
 const createProjectCards = (projects) => {
   let newProject = '';

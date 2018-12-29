@@ -1,69 +1,8 @@
 @import "~bootstrap/scss/bootstrap";
 
-//NAME ANIMATION
-@import url('https://fonts.googleapis.com/css?family=Fredericka+the+Great');
-html {
-    min-height: 100%;
-    overflow: hidden;
-}
-
-#banner {
-    background-image: url(images/HenHen.jpg);
-    // background-repeat: no-repeat;
-    background-image: fill;
-    overflow: hidden;
-}
-
 body {
     background-image: url(images/Bricks.jpg);
     background-image: cover;
     background-repeat: repeat;
 }
 
-#nameAnimation {
-    height: calc(115vh - 3em);
-    color: white;
-    font-size: 20px;
-    font-family: 'Fredericka the Great', cursive;
-    text-shadow: 5px 1px 1px rgb(59, 59, 59);
-}
-
-.line-1 {
-    position: relative;
-    top: 40%;
-    width: 10em;
-    margin: 0 auto;
-    font-size: 400%;
-    text-align: center;
-    white-space: nowrap;
-    overflow: hidden;
-    transform: translateY(-50%);
-}
-
-.animationTypeWriter {
-    animation: typewriter 6s steps(44) 1s 1 normal both;
-}
-@keyframes typewriter {
-    from{width: 0;}
-    to{width: 20em;}
-}
-
-PROJECT CARDS
-#projectsPage {
-    display: flex;
-    flex-direction: row;
-    max-width: 30%;
-}
-
-#cards, #cards p {
-    align-content: center;
-    padding: auto;
-    margin: auto;
-    text-align: center;
-    font-size: 12px;
-}
-
-#cards img {
-    background-color: lavenderblush;
-    padding: 10px;
-}
