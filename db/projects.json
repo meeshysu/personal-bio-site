@@ -28,7 +28,7 @@
             "githubUrl": "https://github.com/meeshysu/developer-portal"
         },
         "project4": {
-            "title": "Butterfly & Bee Gardening",
+            "title": "B & B Gardening",
             "screenshot": "http://i66.tinypic.com/2zgxba8.jpg",
             "description": "Navigate an easy webpage that will help you find the right plant for your Butterfly and Bee gardening needs.",
             "technologiesUsed": "HTML, CSS, SCSS, Vanilla JavaScript, Version Control with Github, jQuery, Webpack/esLint, Firebase, GitBash",
