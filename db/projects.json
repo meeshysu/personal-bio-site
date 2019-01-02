@@ -15,7 +15,7 @@
             "description": "Ever forget your to-do list and then miss some of the things you meant to do? Now you don't have to with the To-Do List! Write down all your chores/tasks and edit, delete or add them!",
             "technologiesUsed": "HTML, CSS, SCSS, Vanilla JavaScript, Version Control with Github, jQuery, Webpack/esLint, Firebase, GitBash",
             "available": true,
-            "url": "https://github.com/nss-evening-cohort-8/js-part-deux",
+            "url": "https://todo-firebase-a1e1d.firebaseapp.com",
             "githubUrl": "https://github.com/meeshysu/todo-firebase"
         },
         "project3": {
