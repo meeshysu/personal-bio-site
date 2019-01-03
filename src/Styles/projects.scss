@@ -1,19 +1,20 @@
 #projectsPage {
-    margin-top: -750px; 
+    margin-top: -650px; 
     padding: auto;
     display: flex;
+    flex-wrap: wrap;
     flex-direction: row;
     justify-content: center;
+    overflow: scroll;
+    margin-bottom: 30px;
 }
 
 .container-cards {
-    // margin: auto;
-    // max-width: 20%;
-    display: inline-table;
+    display: inline-block;
     flex-wrap: wrap;
     justify-content: center;
     max-width: 25.3%;
-    margin: 1%;
+    margin: 5%;
     padding: auto;
 }
 
@@ -30,5 +31,4 @@
 .screenshot {
     width: 210px;
     height: 200px;
-    // height: 40%;
 }

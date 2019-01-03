@@ -190,19 +190,6 @@ left: 25%;
 	transition: all 0.6s ease-in-out;
 }
 
-#homeControl:checked ~ .whole {
-	transform: translateY(0%);
-}
-#bioControl:checked ~ .whole {
-	transform: translateY(-100%);
-}
-#techControl:checked ~ .whole {
-	transform: translateY(-200%);
-}
-#projectControl:checked ~ .whole {
-	transform: translateY(-300%);
-}
-
 .email-info {
 	z-index: 1;
 	margin-top: -135px;
