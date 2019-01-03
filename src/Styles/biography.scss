@@ -1,9 +1,13 @@
-//ABOUT ME
-
 #bioContainer {
   display: flex;
-  // flex-wrap: wrap;
-  // justify-content: space-between;
+  margin-top: -600px;
+}
+
+#header-bio {
+  z-index: -10;
+  margin: auto;
+  margin-left: 500px;
+  margin-top: -600px;
 }
 
 #bioPage {
@@ -14,8 +18,9 @@
   border: 1px double black;
   border-radius: 25px;
   padding: 2%;
-  margin: 5%;
+  margin: 4%;
   margin-right: 15%;
+  z-index: 1;
 }
 
 .bio-scroll, .outer-container {
@@ -43,7 +48,7 @@
 
 
 .section1 {
-  margin-top: -600px;
+  margin-top: -750px;
 }
 
 #headshotPhoto {
@@ -64,7 +69,7 @@ $list: $lightgray, $gray, $anothergray;
   background: linear-gradient($direction, $list);  
 }
 
-.container {
+.inner-container {
   @include gradient(top, $list);
   opacity: .8;
 }
