@@ -87,7 +87,6 @@ left: 25%;
 	width: 0;
 	position: absolute;
 	pointer-events: none;
-	border-bottom-color: #821134;
 	border-width: 20px;
 	left: 50%;
 	margin-left: -20px;
@@ -164,10 +163,6 @@ left: 25%;
 	border-bottom-color: #88b7d5;
 	border-width: 30px;
 	margin-left: -30px;
-}
-
-.navigationBar > input:hover + a:after {
-	border-bottom-color: #AD244F;
 }
 
 .whole, 
