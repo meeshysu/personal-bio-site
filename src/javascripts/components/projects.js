@@ -23,10 +23,10 @@ import purpleSucc from '../../images/SucculentImages/purpleSucc.png';
 import lightGreenSucc from '../../images/SucculentImages/lightGreenSucc.png';
 import brightSucc from '../../images/SucculentImages/brightSucc.png';
 import purpleGreenSucc from '../../images/SucculentImages/purpleGreenSucc.png';
-// import contact from '../../images/Contact.png';
+import contact from '../../images/Contact.png';
 import header from '../../images/Bio.png';
 import headertwo from '../../images/TechN.png';
-import headerthree from '../../images/Export.png';
+import exportProjects from '../../images/Export.png';
 import hens from '../../images/One.png';
 
 $('#headshotPhoto').attr('src', me);
@@ -50,12 +50,12 @@ $('#gitHub-flower').attr('src', purpleSucc);
 $('#lightGreenSucc').attr('src', lightGreenSucc);
 $('#brightSucc').attr('src', brightSucc);
 $('#purpleGreenSucc').attr('src', purpleGreenSucc);
-// $('#linkedIn-flower').attr('src', brightSucc);
-// $('#email-flower').attr('src', greenBlueSucc);
-// $('#contact-picture').attr('src', contact);
+$('#linkedIn-flower').attr('src', brightSucc);
+$('#email-flower').attr('src', greenBlueSucc);
+$('#contact-picture').attr('src', contact);
 $('#header-bio').attr('src', header);
 $('#header-tech').attr('src', headertwo);
-$('#header-project').attr('src', headerthree);
+$('#header-project').attr('src', exportProjects);
 $('#bricks-succ').attr('src', hens);
 
 

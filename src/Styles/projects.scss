@@ -1,6 +1,6 @@
 #projectsPage {
-    margin-top: -650px; 
-    padding: auto;
+    margin-top: -720px;
+    // padding: auto;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
@@ -10,23 +10,34 @@
 
 #header-project {
     margin-left: 900px;
-    margin-top: -740px;
-    z-index: 2;
+    margin-top: -600px;
 }
 
+// .container-cards {
+//     display: inline-block;
+//     flex-wrap: wrap;
+//     justify-content: center;
+//     max-width: 20%;
+//     margin: 5%;
+//     border: black 1px dashed; 
+// }
+
 .container-cards {
-    display: inline-block;
+    display: flex;
     flex-wrap: wrap;
     justify-content: center;
     max-width: 20%;
     margin: 5%;
-    padding: auto;
-}
+    border: 1px solid darkgrey;
+    background-color: white;
+    padding: 15px 15px 20px 15px;
+    box-shadow: 5px 10px 10px darkgrey;
+  }
 
 #cards, #cards p {
     text-align: center;
     font-size: 14px;
-    margin: 5%;
+    // margin: 5%;
 }
 
 #cards img {
