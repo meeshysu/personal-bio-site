@@ -25,6 +25,9 @@ import brightSucc from '../../images/SucculentImages/brightSucc.png';
 import purpleGreenSucc from '../../images/SucculentImages/purpleGreenSucc.png';
 import contact from '../../images/Contact.png';
 import header from '../../images/Bio.png';
+import headertwo from '../../images/TechN.png';
+import exportProjects from '../../images/Export.png';
+import hens from '../../images/One.png';
 
 $('#headshotPhoto').attr('src', me);
 $('#htmlPhoto').attr('src', htmlPhoto);
@@ -51,6 +54,9 @@ $('#linkedIn-flower').attr('src', brightSucc);
 $('#email-flower').attr('src', greenBlueSucc);
 $('#contact-picture').attr('src', contact);
 $('#header-bio').attr('src', header);
+$('#header-tech').attr('src', headertwo);
+$('#header-project').attr('src', exportProjects);
+$('#bricks-succ').attr('src', hens);
 
 
 const createProjectCards = (projects) => {
@@ -59,10 +65,11 @@ const createProjectCards = (projects) => {
     newProject += `<div id='cards' class='container-cards'> 
     <h2>${project.title}</h2>
     <img class="screenshot" src='${project.screenshot}'></img>
-    <div class="content"><p>${project.description}</p>
-    <p>${project.technologiesUsed}</p>
-    <p>${project.url}</p>
-     <p>${project.githubUrl}</p></div>
+      <div class="content"><p>${project.description}</p>
+        <p>${project.technologiesUsed}</p>
+        <p>${project.url}</p>
+      <p class="project-hover"><a href="${project.githubUrl}" target="_blank">Click here to visit my project at GitHub</a></p>
+      </div>
     </div>`;
     if (project.available === true) {
       $('#projectsPage').html(newProject);

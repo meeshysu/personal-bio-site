@@ -1,11 +1,11 @@
-@import url('https://fonts.googleapis.com/css?family=EB+Garamond');
+@import url('https://fonts.googleapis.com/css?family=Finger+Paint');
 html {
     min-height: 100%;
     overflow: hidden;
 } 
 
 #banner {
-	background-image: url(../images/HenHen.jpg);
+	background-image: url(../images/Bricks.jpg);
 	background-image: fill;
 	overflow: hidden;
 }
@@ -14,14 +14,16 @@ html {
 	height: calc(115vh - 3em);
 	color: white;
 	font-size: 25px;
-	font-family: 'EB Garamond', serif;
+	font-family: 'Finger Paint', cursive;
 	text-shadow: 5px 1px 1px rgb(59, 59, 59);
+	background-image: url(../images/One.png);
+	background-position: center;
 }
 
 .line-1 {
 	position: relative;
 	top: 40%;
-	width: 9em;
+	width: 11em;
 	margin: 0 auto;
 	font-size: 400%;
 	text-align: center;
@@ -35,7 +37,7 @@ html {
 }
 @keyframes typewriter {
 	from{width: 0;}
-	to{width: 10em;}
+	to{width: 12em;}
 }
 
 .navigationBar > input, 
@@ -62,19 +64,23 @@ html {
 }
 
 #navHome, #homePanel + a {
-  left: 0;
+  left: -50;
 }
 
 #navBio, #bioPanel + a {
-left: 25%;
+left: 14%;
 }
 
 #navTech, #techPanel + a {
-  left: 50%;
+  left: 35%;
 }
 
 #navProject, #projectPanel + a {
-  left: 70%;
+  left: 55%;
+}
+
+#navContact, #contactPanel + a {
+  left: 73%;
 }
 
 
@@ -92,6 +98,16 @@ left: 25%;
 	margin-left: -20px;
 }
 
+#navContact:after, #navContact:before {
+	bottom: 100%;
+	left: 50%;
+	border: solid transparent;
+	content: " ";
+	height: 0;
+	width: 0;
+	position: absolute;
+	pointer-events: none;
+}
 
 #navProject:after, #navProject:before {
 	bottom: 100%;
@@ -165,6 +181,13 @@ left: 25%;
 	margin-left: -30px;
 }
 
+#navContact:hover:after {
+	border-color: rgba(136, 183, 213, 0);
+	border-bottom-color: #88b7d5;
+	border-width: 30px;
+	margin-left: -30px;
+}
+
 .whole, 
 .section1 {
 	position: relative;
@@ -179,42 +202,36 @@ left: 25%;
 	height: 100%;
 }
 
-.whole {
-	top: 0;
-	left: 0;
-	transition: all 0.6s ease-in-out;
-}
+// .email-info {
+// 	z-index: 1;
+// 	margin-top: -135px;
+// 	margin-left: 240px;
+// 	font-family: Georgia, 'Times New Roman', Times, serif;
+// 	font-style: italic;
+// 	font-size: 25px;
+// 	text-shadow: 0px 1px 1px 1px rgb(59, 59, 59);
+// 	color: #94af92;
+// }
 
-.email-info {
-	z-index: 1;
-	margin-top: -135px;
-	margin-left: 240px;
-	font-family: Georgia, 'Times New Roman', Times, serif;
-	font-style: italic;
-	font-size: 25px;
-	text-shadow: 0px 1px 1px 1px rgb(59, 59, 59);
-	color: #94af92;
-}
+// .linkedin-info {
+// 	z-index: 1;
+// 	margin-top: -38px;
+// 	margin-left: 710px;
+// 	font-family: Georgia, 'Times New Roman', Times, serif;
+// 	font-style: italic;
+// 	font-size: 25px;
+// 	text-shadow: 0px 1px 1px 1px rgb(59, 59, 59);
+// }
 
-.linkedin-info {
-	z-index: 1;
-	margin-top: -38px;
-	margin-left: 710px;
-	font-family: Georgia, 'Times New Roman', Times, serif;
-	font-style: italic;
-	font-size: 25px;
-	text-shadow: 0px 1px 1px 1px rgb(59, 59, 59);
-}
-
-.github-info {
-	z-index: 1;
-	margin-top: -37px;
-	margin-left: 1195px;
-	font-family: Georgia, 'Times New Roman', Times, serif;
-	font-style: italic;
-	font-size: 25px;
-	text-shadow: 2px 1px 2px 1px rgb(59, 59, 59);
-}
+// .github-info {
+// 	z-index: 1;
+// 	margin-top: -37px;
+// 	margin-left: 1195px;
+// 	font-family: Georgia, 'Times New Roman', Times, serif;
+// 	font-style: italic;
+// 	font-size: 25px;
+// 	text-shadow: 2px 1px 2px 1px rgb(59, 59, 59);
+// }
 
 a {
 	color: #94af92;
@@ -223,8 +240,3 @@ a {
 a:hover {
 	color: beige;
 }
-
-#contact-picture {
-	margin-left: 8%;
-	margin-top: -8%;
-} 

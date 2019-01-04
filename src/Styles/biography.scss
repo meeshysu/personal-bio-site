@@ -1,13 +1,13 @@
 #bioContainer {
   display: flex;
-  margin-top: -600px;
+  // margin-top: -600px;
 }
 
 #header-bio {
   z-index: -10;
   margin: auto;
   margin-left: 500px;
-  margin-top: -600px;
+  margin-top: -650px;
 }
 
 #bioPage {
@@ -21,6 +21,7 @@
   margin: 4%;
   margin-right: 15%;
   z-index: 1;
+  margin-top: -500px;
 }
 
 .bio-scroll, .outer-container {
@@ -47,14 +48,14 @@
  }
 
 
-.section1 {
-  margin-top: -750px;
-}
+// .section1 {
+//   // margin-top: -750px;
+// }
 
 #headshotPhoto {
   height: 60%;
-  margin-left: 10%;
-  margin-top: 5%;
+  margin-left: -53%;
+  margin-top: -500px;
 }
 
 $lightgray: #eeeeee;
