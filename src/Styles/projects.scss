@@ -6,21 +6,26 @@
     flex-direction: row;
     justify-content: center;
     overflow: scroll;
-    margin-bottom: 30px;
+}
+
+#header-project {
+    margin-left: 900px;
+    margin-top: -740px;
+    z-index: 2;
 }
 
 .container-cards {
     display: inline-block;
     flex-wrap: wrap;
     justify-content: center;
-    max-width: 25.3%;
+    max-width: 20%;
     margin: 5%;
     padding: auto;
 }
 
 #cards, #cards p {
     text-align: center;
-    font-size: 12px;
+    font-size: 14px;
 }
 
 #cards img {

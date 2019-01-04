@@ -63,10 +63,10 @@ const createProjectCards = (projects) => {
     newProject += `<div id='cards' class='container-cards'> 
     <h2>${project.title}</h2>
     <img class="screenshot" src='${project.screenshot}'></img>
-    <div class="content"><p>${project.description}</p>
-    <p>${project.technologiesUsed}</p>
-    <p>${project.url}</p>
-     <p>${project.githubUrl}</p></div>
+    <div class="content"><li>${project.description}</li>
+    <li>${project.technologiesUsed}</li>
+    <li>${project.url}</li>
+    <li>${project.githubUrl}</li></div>
     </div>`;
     if (project.available === true) {
       $('#projectsPage').html(newProject);
