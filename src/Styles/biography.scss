@@ -1,27 +1,29 @@
+@import url('https://fonts.googleapis.com/css?family=ZCOOL+XiaoWei');
+
 #bioContainer {
   display: flex;
-  // margin-top: -600px;
 }
 
 #header-bio {
   z-index: -10;
   margin: auto;
-  margin-left: 500px;
-  margin-top: -650px;
+  margin-left: 820px;
+  margin-top: -150px;
 }
+
 
 #bioPage {
   display: flex;
-  font-size: 14px;
-  max-height: 60%;
+  font-size: 20px;
+  max-height: 48.5%;
   text-align: justify;
-  border: 1px double black;
-  border-radius: 25px;
-  padding: 2%;
-  margin: 4%;
-  margin-right: 15%;
+  // padding: 2%;
+  border-radius: 3%;
+  border: 1px solid black;
+  margin-right: 24%;
   z-index: 1;
-  margin-top: -500px;
+  margin-top: -550px;
+  font-family: 'ZCOOL XiaoWei', serif;
 }
 
 .bio-scroll, .outer-container {
@@ -47,21 +49,15 @@
   display: none;
  }
 
-
-// .section1 {
-//   // margin-top: -750px;
-// }
-
 #headshotPhoto {
   height: 60%;
-  margin-left: -53%;
-  margin-top: -500px;
+  margin-left: -83%;
+  margin-top: -700px;
 }
 
-$lightgray: #eeeeee;
-$gray: #e0e0e0;
+$gray: #e6619f;
 $anothergray: #bdbdbd;
-$list: $lightgray, $gray, $anothergray;
+$list: $gray, $anothergray;
 
 @mixin gradient($direction, $list) { 
   background: -webkit-linear-gradient($direction, $list);
