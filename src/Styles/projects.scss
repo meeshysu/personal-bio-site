@@ -1,6 +1,6 @@
 #projectsPage {
     margin-top: -720px;
-    // padding: auto;
+    padding: auto;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
@@ -8,9 +8,15 @@
     overflow: scroll;
 }
 
+.title {
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
 #header-project {
     // margin-left: 900px;
-    margin-top: -600px;
+    margin-top: -700px;
+    z-index: 1;
 }
 
 .container-cards {
@@ -21,14 +27,19 @@
     margin: 5%;
     border: 1px solid darkgrey;
     background-color: white;
-    padding: 15px 15px 20px 15px;
+    padding: 18px 18px 25px 15px;
     box-shadow: 5px 10px 10px darkgrey;
   }
 
 #cards, #cards p {
-    text-align: center;
+    text-align: justify;
     font-size: 14px;
     // margin: 5%;
+}
+
+.content {
+    padding: 0 auto;
+    margin: 0 auto;
 }
 
 #cards img {
