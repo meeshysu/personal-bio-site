@@ -55,12 +55,12 @@ $('#email-flower').attr('src', greenBlueSucc);
 $('#contact-picture').attr('src', contact);
 $('#header-bio').attr('src', header);
 $('#header-tech').attr('src', headertwo);
-$('#header-project').attr('src', exportProjects);
+$('.header-project').attr('src', exportProjects);
 $('#bricks-succ').attr('src', hens);
 
 
 const createProjectCards = (projects) => {
-  let newProject = '';
+  let newProject = '<img class="header-project"></img>';
   projects.forEach((project) => {
     newProject += `<div id='cards' class='container-cards'> 
     <h2>${project.title}</h2>
