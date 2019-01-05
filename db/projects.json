@@ -6,7 +6,7 @@
             "description": "3 Fantastic movies are being created and this website keeps up with those locations, as well as the description of each one of the movies.",
             "technologiesUsed": "HTML, CSS, SCSS, Vanilla JavaScript, Version Control with Github, jQuery, Webpack/esLint, Firebase, GitBash",
             "available": true,
-            "url": "https://github.com/nss-evening-cohort-8/js-part-deux",
+            "url": "https://shotz-bd749.firebaseapp.com/",
             "githubUrl": "https://github.com/meeshysu/shotz"
         },
         "project2": {
@@ -35,6 +35,15 @@
             "available": true,
             "url": "https://github.com/nss-evening-cohort-8/js-part-deux",
             "githubUrl": "https://github.com/meeshysu/developer-portal"
+        },
+        "project5": {
+            "title": "Pathetic Connect",
+            "screenshot": "http://i65.tinypic.com/2qlbyit.png",
+            "description": "Losers need love too. Have you been rejected several times and don't know where to go? At Pathetic Connect, you can communicate with others who have experienced the same thing, share articles, create events to get together in and chat. Make friends today!",
+            "technologiesUsed": "HTML, CSS, SCSS, Vanilla JavaScript, Version Control with Github, jQuery, Webpack/esLint, Firebase, GitBash **My part included the Articles section, styling and header.",
+            "available": true,
+            "url": "https://github.com/nss-evening-cohort-8/js-part-deux",
+            "githubUrl": "https://github.com/nss-evening-cohort-8/nutshell-mongongos"
         }
     }
 }

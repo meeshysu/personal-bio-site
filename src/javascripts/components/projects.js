@@ -65,11 +65,11 @@ const createProjectCards = (projects) => {
   let newProject = '<img class="header-project"></img>';
   projects.forEach((project) => {
     newProject += `<div id='cards' class='container-cards'> 
-    <h2>${project.title}</h2>
+    <h2 class="title">${project.title}</h2>
     <img class="screenshot" src='${project.screenshot}'></img>
       <div class="content"><p>${project.description}</p>
         <p>${project.technologiesUsed}</p>
-        <p>${project.url}</p>
+        <p class="url-hover"><a href="${project.url}" target="_blank">Click here to visit the project page</a></p>
       <p class="project-hover"><a href="${project.githubUrl}" target="_blank">Click here to visit my project at GitHub</a></p>
       </div>
     </div>`;
