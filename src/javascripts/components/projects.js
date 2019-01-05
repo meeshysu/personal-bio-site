@@ -28,6 +28,7 @@ import header from '../../images/Bio.png';
 import headertwo from '../../images/TechN.png';
 import exportProjects from '../../images/Export.png';
 import hens from '../../images/One.png';
+import wasHere from '../../images/WasHere.png';
 
 $('#headshotPhoto').attr('src', me);
 $('#htmlPhoto').attr('src', htmlPhoto);
@@ -57,6 +58,7 @@ $('#header-bio').attr('src', header);
 $('#header-tech').attr('src', headertwo);
 $('.header-project').attr('src', exportProjects);
 $('#bricks-succ').attr('src', hens);
+$('#was-here').attr('src', wasHere);
 
 
 const createProjectCards = (projects) => {
