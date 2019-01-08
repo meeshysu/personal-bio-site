@@ -19,6 +19,7 @@ This project is all about me - not in the selfish kind of way, or at least on pu
 - ES6 Modules
 - Firebase
 - Gimp
+- GitBash
 
 ## How to run this app
 
