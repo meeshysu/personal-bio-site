@@ -1,25 +1,32 @@
 # Personal Bio Site Readme
 
-This project is all about me - not in the selfish kind of way, or at least on purpose. As we progress throughout the year, we will continue to learn developing. These things that I learn will be implemented into my personal website. This website will build on everything by me for me. In the future, when I have finished, this website will be a good personal reference to who I am, the challenges I may have faced and what I ended up learning. The screenshot of this project will continue to change as I progress further.
+This project is all about me - not in the selfish kind of way, or at least on purpose. As we progress throughout the year, we will continue to learn software developing. These things that I learn will be implemented into my personal website. This website will build on everything by me for me. In the future, this website will be a good personal reference to who I am, the technologies I have tackled and why I chose this career.
 
 
 ## Screenshot
 
-![mains screenshot](PersonalWebsite.png)
+![main screenshot](HomePageMeesh.png)
+![main screenshot](BiographyPageMeesh.png)
+![main screenshot](TechPageMeesh.png)
+![main screenshot](ProjectsPageMeesh.png)
+![main screenshot](ContactPageMeesh.png)
 
-## How to run this project
-* Use npm to install http-server in your terminal:
-```sh
-npm install -g http-server
-```
-* Run the server:
-```sh
-hs -p 9999
-```
-* Open Chrome and navigate to 
-```
-localhost:9999
-````
+## Technologies Used 
+- Vanilla JS & jQuery
+- SASS/CSS
+- Webpack
+- Axios
+- ES6 Modules
+- Firebase
+- Gimp
 
-#### Credit:
-<a href="https://www.freepik.com/free-vector/watercolor-floral-frame-with-gold-frame_2867031.htm">Designed by Marifdez</a>
+## How to run this app
+
+To run this app, you will need a firebase account and a new project. 
+1. Configure Firebase
+- In the db folder rename ```apiKeys.json.example``` to ```apiKeys.json```.
+- Add in the config object from your firebase project. 
+2. Serve up the app
+- At the root of the project: ```npm install```
+- ```npm start```
+
