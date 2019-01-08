@@ -3,7 +3,7 @@
 This project is all about me - not in the selfish kind of way, or at least on purpose. As we progress throughout the year, we will continue to learn software developing. These things that I learn will be implemented into my personal website. This website will build on everything _by_ me _for_ me. In the future, this website will be a good personal reference to who I am, the technologies I have tackled and why I chose this career.
 
 
-## Screenshot
+## Screenshots
 
 ![homepage_screenshot](./ssForReadme/HomePageMeesh.png)
 
