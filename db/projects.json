@@ -1,14 +1,5 @@
 {
     "projects": {
-        "project1": {
-            "title": "Shotz!",
-            "screenshot": "http://i63.tinypic.com/250oym1.jpg",
-            "description": "3 Fantastic movies are being created and this website keeps up with those locations, as well as the description of each one of the movies.",
-            "technologiesUsed": "HTML, CSS, SCSS, Vanilla JavaScript, Version Control with Github, jQuery, Webpack/esLint, Firebase, GitBash",
-            "available": true,
-            "url": "https://shotz-bd749.firebaseapp.com/",
-            "githubUrl": "https://github.com/meeshysu/shotz"
-        },
         "project2": {
             "title": "The To-Do List",
             "screenshot": "http://i66.tinypic.com/mkhph5.jpg",
@@ -20,11 +11,11 @@
         },
         "project3": {
             "title": "Developer++",
-            "screenshot": "http://i64.tinypic.com/ei8eqa.jpg",
+            "screenshot": "http://i66.tinypic.com/2hxr1uh.jpg",
             "description": "Add and access information that you need for studying to be a developer.",
             "technologiesUsed": "HTML, CSS, SCSS, Vanilla JavaScript, Version Control with Github, jQuery, Webpack/esLint, Firebase, GitBash",
             "available": true,
-            "url": "https://github.com/nss-evening-cohort-8/js-part-deux",
+            "url": "https://developer-portal-51bd2.firebaseapp.com/",
             "githubUrl": "https://github.com/meeshysu/developer-portal"
         },
         "project4": {
