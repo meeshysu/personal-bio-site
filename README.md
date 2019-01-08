@@ -5,15 +5,15 @@ This project is all about me - not in the selfish kind of way, or at least on pu
 
 ## Screenshot
 
-![homepage_screenshot](./src/images/Screenshots/HomePageMeesh.png)
+![homepage_screenshot](./ssForReadme/HomePageMeesh.png)
 
-![bio_screenshot](./src/images/Screenshots/BiographyPageMeesh.png)
+![bio_screenshot](./ssForReadme/BiographyPageMeesh.png)
 
-![tech_screenshot](./src/images/Screenshots/TechPageMeesh.png)
+![tech_screenshot](./ssForReadme/TechPageMeesh.png)
 
-![projects_screenshot](./src/images/Screenshots/ProjectsPageMeesh.png)
+![projects_screenshot](./ssForReadme/ProjectsPageMeesh.png)
 
-![contact_screenshot](./src/images/Screenshots/ContactPageMeesh.png)
+![contact_screenshot](./ssForReadme/ContactPageMeesh.png)
 
 ## Technologies Used 
 - Vanilla JS & jQuery
