@@ -69,8 +69,8 @@ const createProjectCards = (projects) => {
     <img class="screenshot" src='${project.screenshot}'></img>
       <div class="content"><p>${project.description}</p>
         <p>${project.technologiesUsed}</p>
-        <p class="url-hover"><a href="${project.url}" target="_blank">Click here to visit the project page</a></p>
-      <p class="project-hover"><a href="${project.githubUrl}" target="_blank">Click here to visit my project at GitHub</a></p>
+        <p class="url-hover btn btn-light m-3"><a href="${project.url}" target="_blank">Live Demo</a></p>
+      <p class="project-hover btn btn-light m-2"><a href="${project.githubUrl}" target="_blank">GitHub Repo</a></p>
       </div>
     </div>`;
     if (project.available === true) {
